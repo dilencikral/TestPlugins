@@ -25,4 +25,4 @@ diziasya | https://diziasya.com/
 ddizi | https://www.ddizi.im/yabanci-dizi-izle
 Test Filmi 1 | https://sample-videos.com
 Test Filmi 1 | https://sample-videos.com
-Test Filmi 1 | https://sample-videos.com
+Test Filmi 1 | https://sample-videos.com 
