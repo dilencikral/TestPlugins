@@ -3,31 +3,28 @@ dependencies {
     implementation("androidx.recyclerview:recyclerview:1.3.2")
 }
 
-// Use an integer for version numbers
+// Eklentinizin versiyonu (Guncelleme yaptikca bu sayiyi artirabilirsiniz)
 version = 1
 
 cloudstream {
-    // All of these properties are optional, you can safely remove any of them.
+    // TV'de eklentiler listesinde gorunecek aciklama
+    description = "Benim ozel film ve dizi arsivim"
+    
+    // Buraya kendi adinizi veya rumuzunuzu yazabilirsiniz
+    authors = listOf("Ahmet") 
 
-    description = "Lorem ipsum"
-    authors = listOf("Cloudburst", "Luna712")
+    status = 1 
 
-    /**
-    * Status int as one of the following:
-    * 0: Down
-    * 1: Ok
-    * 2: Slow
-    * 3: Beta-only
-    **/
-    status = 1 // Will be 3 if unspecified
-
-    tvTypes = listOf("Movie")
+    // Eklentinizin hangi turde icerikler barindirdigini belirtir
+    tvTypes = listOf("Movie", "TvSeries")
 
     requiresResources = true
-    language = "en"
+    
+    // Uygulamada Turkce olarak listelenmesi icin "tr" yapiyoruz
+    language = "tr"
 
-    // Random CC logo I found
-    iconUrl = "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png"
+    // TV'de eklentinizin yaninda duracak olan logo resmi (Isterseniz degistirebilirsiniz)
+    iconUrl = "https://wikimedia.org"
 }
 
 android {
