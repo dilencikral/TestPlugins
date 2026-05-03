@@ -5,7 +5,7 @@ import com.lagradost.cloudstream3.plugins.Plugin
 import android.content.Context
 
 @CloudstreamPlugin
-class SinemaOdamPlugin: Plugin() {
+class cndrlandPlugin: Plugin() {
     override fun load(context: Context) {
         // Bu alana daha sonra film linklerimizi ekleyecegiz
     }
