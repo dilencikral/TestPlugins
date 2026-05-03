@@ -8,10 +8,10 @@ version = 1
 
 cloudstream {
     // TV'de eklentiler listesinde gorunecek aciklama
-    description = "Benim ozel film ve dizi arsivim"
+    description = "cndrland ozel film ve dizi arsivim"
     
     // Buraya kendi adinizi veya rumuzunuzu yazabilirsiniz
-    authors = listOf("Ahmet") 
+    authors = listOf("cndrland") 
 
     status = 1 
 
